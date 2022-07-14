@@ -1,4 +1,5 @@
-
+/**Escreva um programa para ler 3 valores inteiros(considere que não serão lidos valores igaus)e escreve-los em ordek
+crescente */
 const rs = require('readline-sync')
 
 let primeiroNumero = rs.questionInt('Digite o primeiro numero :');
