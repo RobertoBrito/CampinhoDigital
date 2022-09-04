@@ -1,0 +1,1 @@
+/*4) Crie uma função programa que receba uma palavra e exiba quantas consoantes e vogais essa palavra tem. */

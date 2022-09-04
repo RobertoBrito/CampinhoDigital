@@ -8,13 +8,9 @@ while (primeiroNumero === segundoNumero) {
     segundoNumero = rs.questionInt('Digite o segundo numero pois nao pode ter numero iguais :');
 }
 let terceiroNumero = rs.questionInt('Digite o terceiro numero :');
-while (segundoNumero === terceiroNumero) {
+while (segundoNumero === terceiroNumero || terceiroNumero === primeiroNumero) {
     terceiroNumero = rs.questionInt('Digite o terceiro numero pois nao pode ter numero iguais  :');
 }
-while (terceiroNumero === primeiroNumero) {
-    terceiroNumero = rs.questionInt('Digite o terceiro numero pois nao pode ter numero iguais  :');
-}
-
 
 if (primeiroNumero > segundoNumero && primeiroNumero > terceiroNumero) {
     maior = primeiroNumero;
